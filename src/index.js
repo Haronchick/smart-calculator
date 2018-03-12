@@ -6,8 +6,6 @@ class SmartCalculator {
     }
 
     valueOf() {
-          console.log(this.valueStr);
-
         return eval(this.valueStr);
     }
 
